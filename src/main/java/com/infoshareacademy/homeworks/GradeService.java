@@ -40,7 +40,6 @@ public class GradeService {
             result[i][1] = (myFormat.format(Double.parseDouble(s.split("=")[1])));
             i++;
         }
-
         return result;
     }
 }
